@@ -1,80 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Alumni Management System</title>
-	<meta charset="utf-8">
+  <title>Login Form</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="page1.css">
-	<style>
-		.navback{
-			background-color:#3222c3;
-		}
-	</style>
-</head>
-<body>
-		<div class="banner">
-		
-		</div><!--
-		<div class="middle">
-		 <marquee><b>Every Alumni are asset for Us</b></marquee>
-		</div>  -->
-		
-		<nav class="navbar navbar-inverse navback">
-  <div class="container-fluid">
-  <!--
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>-->
-    <ul class="nav navbar-nav">
-      <li ><a href="#">Home</a></li>
-      <li><a href="alumni_list.php">Alumni</a></li>
-	  <li><a href="gallery.php">Gallery</a></li>
-	  <li><a href="#">About</a></li>
-		<li><a href="#">Policy</a></li>
-		
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="Pform.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="loginform.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
 
-		
-		
-	<div class="body">
-		<div class="welcome">
-			<h2>Welcome To Alumni Management System</h2>
-		</div>
-		
-		
-			
-			
-		<!--
-		<div class="button1" >
-			<a href="">
-				<button class="btn1">Alumni</button>
-			</a>
-			<a href=".php">
-				<button class="btn1">Terms/Policy</button>
-			</a>
-			<a href=".php">
-				<button class="btn1">About-Us</button>
-			</a>
-			<a href="">
-				<button class="btn1">Gallery</button>
-			</a>
-			<a href="">
-				<button class="btn1">Log-In</button>
-			</a>
-			<a href="">
-				<button class="btn1">Create Account</button>
-			</a>
-			
-		</div>-->
-	</div>	
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="login.css">
+ </head>
+  <body>
+    <section class="container-fluid tiktok">
+      <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-3">
+          <form class="form-container" action="login.php" method="POST">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Enter Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" name="login">Login</button>
+			<a href="repass.php">Forgot Password</a>
+		  </form>
+      </section>
+    </section>
+  </section>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+   
+
